@@ -14,4 +14,9 @@ public class HelloWorldController {
     public String shenyao() {
         return "Hello World";
     }
+    
+    @RequestMapping("/shenyao1")
+    public String shenyao1() {
+        return "Hello World";
+    }
 }
